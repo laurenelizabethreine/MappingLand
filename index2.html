@@ -34,7 +34,7 @@
   /* Set up the map with initial center and zoom level */
   var map = L.map('map', {
     center: [44.4280, -110.5885], // EDIT latitude, longitude to re-center map
-    zoom: 2,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    zoom: 10,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
 
@@ -79,18 +79,18 @@ var boneIcon = L.icon({
   /* Display a blue point marker with pop-up text */
   L.marker([44.35, -68.21], {icon: natIcon}).addTo(map)
   L.marker([14.25, -178.68], {icon: natIcon}).addTo(map)
-     L.marker([38.68, 109.57], {icon: natIcon}).addTo(map)
-  L.marker([52.5200, 13.4050], {icon: natIcon}).addTo(map)
-      L.marker([52.5200, 13.4053], {icon: natIcon}).addTo(map)
-  L.marker([59.3293, 18.0686], {icon: natIcon}).addTo(map)
-    L.marker([51.5, -0.09], {icon: natIcon}).addTo(map)
-        L.marker([51.5115, 0.1160], {icon: natIcon}).addTo(map)
-     L.marker([53.3498, -6.2603], {icon: natIcon}).addTo(map)
-     L.marker([-33.9249, 18.4241], {icon: natIcon}).addTo(map)
-    L.marker([51.5256, 0.1233], {icon: natIcon}).addTo(map)
-        L.marker([43.0015, 41.0234], {icon: natIcon}).addTo(map)
-        L.marker([51.5163, -0.2369], {icon: natIcon}).addTo(map)
-      L.marker([59.3498, 18.0707], {icon: natIcon}).addTo(map)
+     L.marker([38.68, -109.57], {icon: natIcon}).addTo(map)
+  L.marker([43.75, -102.50], {icon: natIcon}).addTo(map)
+      L.marker([37.57, -112.18], {icon: natIcon}).addTo(map)
+  L.marker([29.25, -103.25], {icon: natIcon}).addTo(map)
+    L.marker([25.65, -80.08], {icon: natIcon}).addTo(map)
+        L.marker([38.57, -107.72], {icon: natIcon}).addTo(map)
+     L.marker([38.2, -109.93], {icon: natIcon}).addTo(map)
+     L.marker([38.20, -111.17], {icon: natIcon}).addTo(map)
+    L.marker([32.17, -104.44], {icon: natIcon}).addTo(map)
+        L.marker([34.01, -119.52], {icon: natIcon}).addTo(map)
+        L.marker([33.78, -80.78], {icon: natIcon}).addTo(map)
+      L.marker([42.94, -122.1], {icon: natIcon}).addTo(map)
 
  
   /* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
