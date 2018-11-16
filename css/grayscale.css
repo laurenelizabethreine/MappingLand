@@ -136,6 +136,10 @@
     max-width: 30rem;
     font-size: 1.25rem;
   }
+  .masthead h3 {
+    max-width: 20rem
+    font-size: .75rem
+  }
 }
 
 .btn {
