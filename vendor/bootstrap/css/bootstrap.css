@@ -377,7 +377,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: .1rem;
+  font-size: .75rem;
 }
 
 h4, .h4 {
@@ -385,11 +385,11 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: .8rem;
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .lead {
